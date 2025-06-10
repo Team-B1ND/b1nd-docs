@@ -2,16 +2,18 @@
 
 * [Welcome](README.md)
 
-## DAuth
+## DOCS
 
-* [Quickstart](dauth/quickstart.md)
-* [Publish your docs](dauth/publish-your-docs.md)
+* [Dodam Open Api](docs/dodam-open-api.md)
+* [DAuth](docs/dauth/README.md)
+  * [Quickstart](docs/dauth/quickstart.md)
+* [Publish your docs](docs/publish-your-docs.md)
 
-## Dodam Open Api
+## api docs
 
-* [Editor](dodam-open-api/editor.md)
-* [Markdown](dodam-open-api/markdown.md)
-* [Images & media](dodam-open-api/images-and-media.md)
-* [Interactive blocks](dodam-open-api/interactive-blocks.md)
-* [OpenAPI](dodam-open-api/openapi.md)
-* [Integrations](dodam-open-api/integrations.md)
+* [Editor](api-docs/editor.md)
+* [Markdown](api-docs/markdown.md)
+* [Images & media](api-docs/images-and-media.md)
+* [Interactive blocks](api-docs/interactive-blocks.md)
+* [OpenAPI](api-docs/openapi.md)
+* [Integrations](api-docs/integrations.md)
