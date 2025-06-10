@@ -10,7 +10,6 @@
 
 ## api docs
 
-* [OpenAPI](api-docs/openapi.md)
 * [DAuth](api-docs/dauth/README.md)
   * [토큰 발급](api-docs/dauth/undefined.md)
   * [토큰 재발급](api-docs/dauth/undefined-1.md)
