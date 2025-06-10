@@ -10,9 +10,7 @@
 
 ## api docs
 
-* [Editor](api-docs/editor.md)
-* [Markdown](api-docs/markdown.md)
-* [Images & media](api-docs/images-and-media.md)
-* [Interactive blocks](api-docs/interactive-blocks.md)
 * [OpenAPI](api-docs/openapi.md)
-* [Integrations](api-docs/integrations.md)
+* [DAuth](api-docs/dauth/README.md)
+  * [토큰 발급](api-docs/dauth/undefined.md)
+  * [토큰 재발급](api-docs/dauth/undefined-1.md)
