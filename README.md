@@ -1,5 +1,7 @@
 ---
-cover: .gitbook/assets/ddocs.png
+cover:
+  light: .gitbook/assets/Banner.png
+  dark: .gitbook/assets/banner dark.png
 coverY: 0
 layout:
   cover:
