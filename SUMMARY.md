@@ -4,9 +4,9 @@
 
 ## DOCS
 
-* [Dodam Open Api](docs/dodam-open-api.md)
 * [DAuth](docs/dauth/README.md)
   * [시작하기](docs/dauth/quickstart.md)
+* [Dodam Open Api](docs/dodam-open-api.md)
 * [Publish your docs](docs/publish-your-docs.md)
 
 ## api docs
