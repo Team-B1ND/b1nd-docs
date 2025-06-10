@@ -1,12 +1,12 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [DDocs](README.md)
 
 ## DOCS
 
 * [Dodam Open Api](docs/dodam-open-api.md)
 * [DAuth](docs/dauth/README.md)
-  * [Quickstart](docs/dauth/quickstart.md)
+  * [시작하기](docs/dauth/quickstart.md)
 * [Publish your docs](docs/publish-your-docs.md)
 
 ## api docs
