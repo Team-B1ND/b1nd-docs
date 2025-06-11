@@ -1,5 +1,5 @@
 ---
-description: 도담도담 디자인 시스템
+description: '''도담도담'' 디자인 시스템 DDS 입니다'
 ---
 
 # Dodam Design System
