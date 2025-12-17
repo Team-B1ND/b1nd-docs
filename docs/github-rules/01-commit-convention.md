@@ -308,6 +308,64 @@ git config commit.template ~/.gitmessage
 - **IntelliJ/Android Studio**: Git Commit Template 플러그인
 - **Vim**: Fugitive + 커스텀 매핑
 
+### 5. Claude Code 커맨드 활용 (권장)
+
+프로젝트에 **Claude Code 커스텀 커맨드**가 설정되어 있다면 더욱 쉽게 컨벤션을 준수할 수 있습니다.
+
+#### 사용 가능한 커맨드
+
+**1. `/commit` - 커밋만 생성**
+```bash
+# 기본 사용
+/commit
+
+# 스코프 지정
+/commit server
+/commit student
+```
+
+자동으로:
+- 변경된 파일 분석
+- 적절한 타입 선택
+- 컨벤션에 맞는 메시지 생성
+- 커밋 실행
+
+**2. `/commit-push` - 커밋 + 푸시**
+```bash
+# 커밋하고 즉시 원격 저장소에 푸시
+/commit-push
+
+# 스코프 지정하여 커밋 + 푸시
+/commit-push android
+```
+
+**3. `/pr` - Pull Request 생성**
+```bash
+# main 브랜치로 PR 생성
+/pr
+
+# 특정 브랜치로 PR 생성
+/pr develop
+```
+
+#### 커맨드 설정 방법
+
+프로젝트 루트의 `.claude/commands/` 폴더에 다음 파일들이 있는지 확인:
+- `commit.md`: 커밋 생성 커맨드
+- `commit-push.md`: 커밋 + 푸시 커맨드
+- `pr.md`: PR 생성 커맨드
+
+없다면 프로젝트 관리자에게 문의하거나 [Claude Code 문서](https://code.claude.com/docs/en/slash-commands.md)를 참고하여 직접 생성할 수 있습니다.
+
+#### 장점
+
+```
+✅ 컨벤션 자동 준수 - 타입, 형식 자동 적용
+✅ 시간 절약 - 메시지 고민 시간 단축
+✅ 실수 방지 - 문법 오류, 오타 최소화
+✅ 일관성 유지 - 팀 전체 통일된 품질
+```
+
 ## 📚 참고 자료
 
 본 컨벤션은 다음 표준을 참고하여 Team-B1ND에 최적화했습니다:
