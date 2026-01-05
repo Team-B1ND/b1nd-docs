@@ -963,7 +963,7 @@ git commit -m "ㅇㅇ"
 ## 🔗 참고 자료
 
 ### 프로젝트 내부 문서
-- [Confluence 튜토리얼](./confluence-tutorial.md)
+- [Confluence 튜토리얼](202-confluence-tutorial.md)
 - [커밋 컨벤션](../github-rules/01-commit-convention.md)
 - [브랜치 전략](../github-rules/02-branch-strategy.md)
 - [PR 템플릿](../github-rules/04-pr-template.md)
